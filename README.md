@@ -1,6 +1,6 @@
 # 🏨 Grand Hotel - Room Reservation System
 
-A sophisticated hotel room reservation system built with React, Vite, and Tailwind CSS. Features an AI-powered optimal room allocation algorithm that minimizes travel time between booked rooms.
+A sophisticated hotel room reservation system built with React, Vite, and Tailwind CSS. Features an optimal room allocation algorithm that minimizes travel time between booked rooms.
 
 ## 🌟 Features
 

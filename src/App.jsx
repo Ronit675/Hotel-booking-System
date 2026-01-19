@@ -103,7 +103,7 @@ function App() {
             </h1>
           </div>
           <p className="text-purple-200 text-base sm:text-lg font-medium tracking-wide">
-            AI-Powered Smart Room Reservation System
+            Smart Room Reservation System
           </p>
           <div className="mt-3 inline-block px-4 py-2 bg-gradient-to-r from-cyan-500/20 to-purple-500/20 rounded-full border border-cyan-400/30">
             <p className="text-cyan-300 text-sm font-semibold">97 Rooms • 10 Floors • Optimal Allocation</p>
@@ -168,13 +168,6 @@ function App() {
           setHoveredRoom={setHoveredRoom}
           lastBookedRooms={lastBookedRooms}
         />
-
-        {/* Footer */}
-        <div className="mt-8 text-center">
-          <p className="text-purple-300/70 text-sm font-medium">
-            Powered by AI-Optimized Room Allocation Algorithm
-          </p>
-        </div>
       </div>
     </div>
   );
