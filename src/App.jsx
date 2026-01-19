@@ -90,8 +90,6 @@ function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-indigo-950 via-purple-900 to-pink-900 p-3 sm:p-6 lg:p-8">
       <div className="max-w-7xl mx-auto">
-        
-        {/* Header */}
         <div className="text-center mb-8 sm:mb-12">
           <div className="flex items-center justify-center gap-3 mb-4 animate-fade-in">
             <div className="relative">
@@ -109,8 +107,6 @@ function App() {
             <p className="text-cyan-300 text-sm font-semibold">97 Rooms • 10 Floors • Optimal Allocation</p>
           </div>
         </div>
-
-        {/* Stats Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
           <StatusCard
             icon={Building2}
@@ -147,8 +143,6 @@ function App() {
             textColor="text-purple-200"
           />
         </div>
-
-        {/* Booking Controls */}
         <div className="mb-8">
           <BookingCenter
             numRooms={numRooms}
@@ -160,8 +154,6 @@ function App() {
           />
           <BookedRoomResults res={bookingResult} />
         </div>
-
-        {/* Hotel Layout */}
         <HotelLayout
           rooms={rooms}
           hoveredRoom={hoveredRoom}

@@ -1,5 +1,3 @@
-import React from 'react';
-
 const StatusCard = ({ icon: Icon, label, value, gradient, iconBg, textColor, secondIcon: SecondaryIcon }) => {
   return (
     <div className={`group bg-gradient-to-br ${gradient} backdrop-blur-xl rounded-2xl p-6 border ${textColor.replace('text-', 'border-')}/30 hover:${textColor.replace('text-', 'border-')}/60 transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-${textColor.split('-')[1]}-500/20`}>
